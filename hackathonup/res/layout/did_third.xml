@@ -1,0 +1,58 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<ScrollView
+        android:id="@+id/svDidThird"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <LinearLayout 
+         android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical" >
+        <ImageView
+              android:id="@+id/didT1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:src="@drawable/didta" />
+         <TextView
+               android:id="@+id/didTText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginRight="100dp"
+              android:text=" 
+    作品名称: 华农计维网站
+    合作者名单（名字+学校）: 廖伟文，梁广彬，叶志良 华南农业大学
+    较为详尽的作品描述: 华农计算机维护队的网站，有同学的电脑坏了，可以通过该网站或手机客户端进行报修，维修人员通过客户端接收信息。
+    关键技术: JSP AJAX JS ANDROID" />
+             <ImageView
+              android:id="@+id/didT2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:src="@drawable/didtb" />
+         <TextView
+               android:id="@+id/didTText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginRight="100dp"
+              android:text="
+    作品名称: 华农宝ios版
+    合作者名单（名字+学校）: 聂俊杰 华南农业大学 朱灿锋 华南农业大学
+    较为详尽的作品描述: 实现华南农业大学学生的便利工具，此版本提供图书馆登陆，能查询相关书籍信息，回馈信息接受，新生帮助信息等～～
+    关键技术: iOS 基本使用"
+              />           
+                
+            
+        
+        
+        
+        
+        </LinearLayout>
+    
+    
+    
+    
+    
+    
+        </ScrollView>

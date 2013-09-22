@@ -1,0 +1,290 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<ScrollView
+        android:id="@+id/sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/me" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_toRightOf="@+id/imageView1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.00"
+                android:gravity="center_vertical"
+                android:text="maer zhou" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.00"
+                android:gravity="center_vertical"
+                android:text="our teamleader!" />
+        </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/antitled14" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.00"
+                android:gravity="center_vertical"
+                android:text="future king" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.00"
+                android:gravity="center_vertical"
+                android:text="market director" />
+
+            
+
+        </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/hacka" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.00"
+                    android:gravity="center_vertical"
+                    android:text="lizard deng" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.00"
+                    android:gravity="center_vertical"
+                    android:text="project manager" />
+            </LinearLayout>
+
+           
+
+        </RelativeLayout>
+         
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/as" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_marginRight="60dp"
+                android:layout_toRightOf="@+id/imageView4"
+                android:orientation="vertical" >
+
+            <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="33dp"
+                    android:layout_marginTop="23dp"
+                    android:text="sherlock li" />
+            
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_weight="1.00"
+                android:gravity="center_vertical"
+                android:text="hacker" />
+               
+            
+            </LinearLayout>
+
+            
+
+      </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/liang" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_marginRight="50dp"
+                android:layout_toRightOf="@+id/imageView5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="23dp"
+                    android:text="simon liang" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.00"
+                    android:gravity="center_vertical"
+                    android:text="a great programmer " />
+
+            </LinearLayout>
+        </RelativeLayout>
+      <RelativeLayout 
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+          <ImageView 
+               android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/ouwen" />
+           <LinearLayout 
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_marginRight="50dp"
+                android:layout_toRightOf="@+id/imageView6"
+                android:orientation="vertical" >
+              <TextView 
+                  android:id="@+id/textView11"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="23dp"
+                    android:text="ouwen" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.00"
+                    android:gravity="center_vertical"
+                    android:text="DB doctor " />
+               
+               
+               
+               
+               
+               
+               
+               </LinearLayout>   
+              
+              
+            
+          
+          
+          
+          
+          
+          
+          
+          </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+    
+
+</ScrollView>
+    
+
+    
